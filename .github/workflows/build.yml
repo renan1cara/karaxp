@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2019   # 👈 TROQUEI AQUI
 
     steps:
       - name: Checkout
@@ -23,5 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: KaraokePlayer-build
-          path: |
-            bin/Release/
+          path: bin/Release/
