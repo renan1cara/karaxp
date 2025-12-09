@@ -26,4 +26,7 @@
     <Compile Include="MainForm.cs" />
     <Compile Include="LibraryItem.cs" />
   </ItemGroup>
+
+  <!-- ESSA LINHA É A QUE FALTAVA -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
